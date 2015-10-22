@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Test file...</title>
+	</head>
+	<style>
+	/*- static, relative, absolute, fixed -*/
+
+	html, body{
+		box-sizing: border-box;
+	}
+
+	* {
+		box-sizing: inherit;
+	}
+	
+	html, h1, h2, h3, h4, h5, h6 {
+		padding: 0;
+		margin: 0;
+	}
+
+	.text{
+		margin-top: 250px;
+		position: fixed;
+		font: 15px gotham, serif;
+		color: white;
+		padding-left:300px;
+		padding-right: 300px;
+		padding-top: 10px;
+		padding-bottom: 25px;
+		background-color: rgba(0, 0, 0, .50);
+  width: 100%;
+  		text-align: center;
+
+	}
+
+	}
+	.paris{
+		position: relative;
+		font: 15px gotham, serif;
+		text-align: center;
+	}
+
+	.options {
+		margin: auto;
+		width: 490px;
+	}
+
+	.museums{
+		border: 2px solid white;
+		width: 200px;
+		padding: 5px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		position: fixed;
+	}
+	.eat{
+		position: relative;
+		border: 2px solid white;
+		width: 200px;
+		padding: 5px;
+		float: right;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+
+	img {
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	a {color: white;}
+
+	</style>
+
+<body>
+<div class="paris">
+
+<div class="text">
+<h1>Nice Choice!</h1>
+<p>The apartment was only a bump in the road so we decided to go explore this incredible city. The opportunities were endless, do we go explore the many tourist sites like the Eiffel tower and Louvre? Or do we just go straight to eating our way through Paris?</p>
+
+<div class="options">
+
+	<div class="museums">
+	<a href="page5.html">Tourist Crawl</a>
+	</div>
+
+	<div class="eat">
+	<section>Bon Appetit!</section>
+	</div>
+	</div>
+</div>
+
+</div>
+</div>
+
+<img src="http://i1383.photobucket.com/albums/ah294/rcvillo/Elisabeth%20web/IMG_4169_zpsa30fh9du.gif">
+
+
+	
+</div>
+</body>
+</html>
